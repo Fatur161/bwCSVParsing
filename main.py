@@ -39,7 +39,7 @@ style.paragraph_format.line_spacing_rule = WD_LINE_SPACING.SINGLE
 style.paragraph_format.space_after = Pt(6)
 
 # Добавление заголовка
-heading = doc.add_heading('Bitwarden Data Экспорт', level=1)
+heading = doc.add_heading('Data Экспорт', level=1)
 heading.style.font.name = 'Times New Roman'
 heading.style.font.size = Pt(14)
 
